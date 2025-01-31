@@ -131,7 +131,7 @@ var raf =
   window.oRequestAnimationFrame ||
   window.msRequestAnimationFrame ||
   function (callback) {
-    window.setTimeout(callback, 2000 / 60);
+    window.setTimeout(callback, 1000 / 60);
   };
 canvas.onclick = function () {
   var x = event.clientX;
@@ -258,7 +258,7 @@ function putValue(canvas, context, ele, dr, callback) {
   } else {
     var text = ele.innerHTML;
     context.save();
-    var fontSize = 100;
+    var fontSize = 60;
     context.font = fontSize + "px 宋体 bold";
     context.textAlign = "center";
     context.textBaseline = "middle";
