@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-12-26 14:21:02
- * @LastEditTime: 2021-01-06 09:21:30
+ * @LastEditTime: 2025-01-06 09:21:30
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \烟花表白(可自定义文字)\talk.js
